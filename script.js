@@ -1,9 +1,4 @@
-/**
- * Professional DOM Manipulation Demo
- * Demonstrates core JavaScript DOM manipulation techniques
- */
 
-// Document Ready IIFE
 (() => {
     /**
      * =============================================
