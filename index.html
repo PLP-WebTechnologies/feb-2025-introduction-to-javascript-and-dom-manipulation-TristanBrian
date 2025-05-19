@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional DOM manipulation demo">
+    <title>DOM Manipulation Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>DOM Manipulation Demo</h1>
+            <p>Professional JavaScript techniques for web development</p>
+        </div>
+    </header>
+
+    <main class="main-content container">
+        <section class="card" id="text-section">
+            <h2>Text Content Manipulation</h2>
+            <p id="dynamic-text">This text will change when you interact with the buttons below.</p>
+            <div class="button-group">
+                <button id="change-text-btn" class="btn">Change Text</button>
+                <button id="reset-text-btn" class="btn btn-secondary">Reset Text</button>
+            </div>
+        </section>
+
+        <section class="card" id="style-section">
+            <h2>Style Manipulation</h2>
+            <div id="style-target" class="style-target">
+                This element's styles will change when you click the buttons.
+            </div>
+            <div class="button-group">
+                <button id="apply-styles-btn" class="btn">Apply Styles</button>
+                <button id="reset-styles-btn" class="btn btn-secondary">Reset Styles</button>
+            </div>
+        </section>
+
+        <section class="card" id="element-section">
+            <h2>Element Manipulation</h2>
+            <p>Click buttons to add or remove elements:</p>
+            <div class="button-group">
+                <button id="add-element-btn" class="btn">Add Element</button>
+                <button id="remove-element-btn" class="btn btn-secondary">Remove Element</button>
+                <button id="toggle-elements-btn" class="btn">Toggle Elements</button>
+            </div>
+            <div id="element-container" class="element-container"></div>
+        </section>
+
+        <section class="card" id="interaction-section">
+            <h2>User Interaction</h2>
+            <div id="interaction-display" class="interaction-display">
+                Your interactions will appear here.
+            </div>
+            <div class="button-group">
+                <button id="log-interaction-btn" class="btn">Log Interaction</button>
+                <button id="clear-log-btn" class="btn btn-secondary">Clear Log</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> DOM Manipulation Demo. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
